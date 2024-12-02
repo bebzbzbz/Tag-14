@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    grid-template: 1fr 8fr 1fr / repeat(4, 1fr);
+    height: 100vh;
+    gap: .5rem;
+}
+
+header {
+    background-color: rgb(171, 171, 255);
+    grid-column: span 4;
+}
+aside {
+    background-color: rgb(115, 201, 115);
+}
+main {
+    background-color: rgb(255, 139, 139);
+    grid-column: span 3;
+}
+footer {
+    background-color: rgb(255, 224, 124);
+    grid-column: span 4;
+}
